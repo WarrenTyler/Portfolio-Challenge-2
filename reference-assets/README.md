@@ -39,9 +39,9 @@ This challenge is graded based on the following criteria:
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
+* <s>Application deployed at live URL.</s>
 
-* Application loads with no errors.
+* <s>Application loads with no errors.</s>
 
 * Application GitHub URL submitted.
 
