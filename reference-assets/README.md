@@ -43,9 +43,9 @@ This challenge is graded based on the following criteria:
 
 * <s>Application loads with no errors.</s>
 
-* Application GitHub URL submitted.
+* <s>Application GitHub URL submitted.</s>
 
-* GitHub repository contains application code.
+* <s>GitHub repository contains application code.</s>
 
 ### Application Quality: 15%
 
