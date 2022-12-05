@@ -29,7 +29,45 @@ p {
 
 
  /* ------------------------------ */
- nav li {
-  list-style: none;
- }
+ html {
+  /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+  font-size: 62.5%;
+}
 
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* width: 100%; */
+  align-items: center;
+  /* text-align: center; */
+  
+}
+
+header h1 {
+  background-color: red;
+  /* min-width: 300px; */
+  font-size: 5rem;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  /* display: inline; */
+  font-size: 2rem;
+  padding: 0 1rem;
+}
