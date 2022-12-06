@@ -29,11 +29,6 @@ p {
   font-size: 62.5%;
 }
 
-* {
-  /* margin: 0; */
-  /* padding: 0; */
-}
-
 
 header {
   display: flex;
@@ -107,7 +102,6 @@ nav li {
 .content {
   grid-column: span 2;
 }
-
 
 
 /* ----------------- MEDIA QUERIES ----------------- */
