@@ -89,7 +89,7 @@ nav li {
   display: grid;
   grid-template-columns: 90vw;
   grid-auto-rows: 150px;
-  background-color: aqua;
+  /* background-color: aqua; */
   gap: 1rem;
   overflow: hidden;
 }
@@ -99,9 +99,14 @@ nav li {
   grid-row: span 2;
 }
 
-.content {
-  grid-column: span 2;
-}
-
 
 /* ----------------- MEDIA QUERIES ----------------- */
+@media screen and (min-width: 768px) {
+  .work-content-grid {
+    grid-template-columns: 45vw 45vw;
+  }
+
+  .work-content-grid :first-child {
+    grid-column: span 2;
+  }
+}
