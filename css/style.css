@@ -28,7 +28,7 @@ p {
 }
 
 
- /* ------------------------------ */
+ /* ------------- under 768px ----------------- */
  html {
   /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
   font-size: 62.5%;
@@ -43,9 +43,6 @@ p {
 header {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* width: 100%; */
   align-items: center;
   /* text-align: center; */
   
@@ -53,21 +50,24 @@ header {
 
 header h1 {
   background-color: red;
-  /* min-width: 300px; */
+
   font-size: 5rem;
   text-align: center;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  
+  background-color: rgb(187, 174, 201);
+  width: 100vw;
   padding: 0;
 }
 
 nav li {
   list-style: none;
-  /* display: inline; */
   font-size: 2rem;
   padding: 0 1rem;
 }
@@ -83,3 +83,4 @@ nav li {
   background-blend-mode: overlay;
   color: white;
 }
+
