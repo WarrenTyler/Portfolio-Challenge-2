@@ -84,3 +84,21 @@ nav li {
   color: white;
 }
 
+.work-content-grid {
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-auto-rows: 150px;
+  background-color: aqua;
+  gap: 0.3rem;
+  overflow: hidden;
+}
+
+.work-content-grid :first-child {
+  /* grid-column: span 2; */
+  grid-row: span 2;
+}
+
+.content {
+  grid-column: span 2;
+}
+
