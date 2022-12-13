@@ -66,6 +66,12 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.page-wrapper .page-section p {
+  color: var(--dark-blue);
+  margin: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
 header nav ul {
   display: flex;
   flex-direction: row;
