@@ -81,23 +81,26 @@ header nav ul {
   /* background-color: rgb(187, 174, 201); */
   width: 96vw;
   padding-bottom: 8px;
+}
+
+header a {
   color: var(--light-blue);
 }
 
-a {
-  color: var(--light-blue);
-}
 .contact-nav-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   
-  background-color: rgb(182, 201, 174);
+  color: var(--dark-blue);
   width: 96vw;
   padding: 0;
 }
 
+.contact-nav-links a {
+  color: var(--dark-blue);
+}
 
 nav li {
   list-style: none;
