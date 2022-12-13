@@ -55,14 +55,15 @@ header h1 {
   border-bottom: 8px solid var(--header-bg-color);
 }
 
+.page-wrapper {
+  padding: 0 1%;
+}
+
 .page-wrapper .page-section h2 {
+  font-size: 3rem;
   color: var(--dark-blue);
   border-bottom: 4px solid var(--dark-blue);
   margin-bottom: 10px;
-}
-.page-wrapper  {
-
-  padding: 0 1%;
 }
 
 header nav ul {
@@ -131,10 +132,6 @@ nav li {
   height: 200%;
 } */
 
-h2 {
-  font-size: 2rem;
-}
-
 #surf, #wall, #calc, #puzzle, #buddy {
   /* display: inline-block; */
   width: 100%;
@@ -180,7 +177,7 @@ h2 {
     grid-column: span 2;
   }
 
-  h2 {
-    font-size: 3rem;
+  .page-wrapper .page-section h2 {
+    font-size: 4rem;
   }  
 }
