@@ -47,8 +47,8 @@ header {
 }
 
 header h1 {
-  background-color: var(--light-blue);
-  color: var(--header-bg-color);
+  /* background-color: var(--light-blue); */
+  /* color: var(--header-bg-color); */
   font-size: 5rem;
   text-align: center;
   border-top: 8px solid var(--header-bg-color);
@@ -59,9 +59,33 @@ header h1 {
   background-color: var(--light-blue);
   color: var(--header-bg-color);
   /* width: fit-content; */
+  height: fit-content;
   padding: 0.5rem 1rem;
+  /* align-self: flex-end;
+  margin-bottom: 15px; */
+  /* font-size: 3rem; */
+  /* height: fit-content; */
+  /* margin: auto 20px 0 40px; */
 }
 
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  height: 180px;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-color: var(--dark-blue);
+  background-blend-mode: lighten;
+  color: white;
+}
+
+.hero-banner h2 {
+  font-size: 3rem;
+  align-self: flex-end;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+}
 .page-wrapper {
   padding: 0 1%;
 }
@@ -115,17 +139,6 @@ nav li {
   padding: 0 1rem;
 }
 
-.hero-banner {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  height: 100px;
-  background-image: url("../images/02-hero-bg.jpg");
-  background-size: cover;
-  background-color: var(--dark-blue);
-  background-blend-mode: lighten;
-  color: white;
-}
 
 .work-content-grid {
   display: grid;
@@ -135,9 +148,9 @@ nav li {
   gap: 1.5rem;
   /* overflow: hidden; */
   /* padding: 0; */
-  
-}
 
+}
+/* grid-auto-rows: minmax(200px, auto); */
 .work-content-grid a {
   text-decoration: none;
   font-size: 1.5rem;
